@@ -20,7 +20,7 @@ async function pushh(){
     newnode.classList.add("node");
     var p1=document.createElement("img")
     p1.classList.add("node");
-    p1.src = "arrow.png";
+    p1.src = "../img/arrow.png";
     if(list.length!=0){
         list[list.length-1].style.background = "green";
         await matteKudasai();
@@ -80,7 +80,7 @@ async function enqueue(){
     newnode.classList.add("node");
     var p1=document.createElement("img")
     p1.classList.add("qnode")
-    p1.src = "arrow.png";
+    p1.src = "../img/arrow.png";
     if(list.length!=0){
        document.querySelector("#queue").appendChild(p1);
     }
