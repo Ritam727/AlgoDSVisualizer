@@ -130,7 +130,6 @@ async function selectionSort() {
 }
 
 async function MergeSorted(a, s, e) {
-    _disableAllBtns();
     var mid = Math.floor((s + e) / 2);
     var i = s;
     var j = mid + 1;
@@ -165,7 +164,6 @@ async function MergeSorted(a, s, e) {
         a[index++].style.height = ans[p];
         await matteKudasai();
     }
-    _enableAllBtns();
 }
 
 async function mergeSort(a, s, e) {
